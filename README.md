@@ -18,8 +18,3 @@ Your FRITZ!NAS user password which will have access to your `%NAS_PATH%`.
 
 ## Usage
 Your NAS will be available on your Linux device on `/mnt/fritz_nas/%NAS_PATH%` after reboot.
-
-
-
-
-Written with [StackEdit](https://stackedit.io/)
