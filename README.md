@@ -1,6 +1,3 @@
-> # fritz_nas_auto_mount
-This repository manages example files, to auto-mount your FRITZ!NAS on boot to your Linux device (In my example a Raspberry Pi running on Raspbian Stretch)
-
 ## Configuration
 Just modify `/etc/fstab.example` with your credentials and merge the content to your own fstab file, located in `/etc/fstab` on your Linux device.
 
