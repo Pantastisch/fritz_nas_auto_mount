@@ -1,3 +1,4 @@
+
 ## Configuration
 Just modify `/etc/fstab.example` with your credentials and merge the content to your own fstab file, located in `/etc/fstab` on your Linux device.
 
@@ -17,10 +18,15 @@ Your FRITZ!NAS user which will have access to your `%NAS_PATH%`.
 Your FRITZ!NAS user password which will have access to your `%NAS_PATH%`.
 
 ## Usage
-Enable `rpcbind` by following command:
+
+ 1. Make the NAS path by doing: 
+ `mkdir /mnt/fritz_nas/%NAS_PATH%`
+
+2. Enable `rpcbind` by following command:
 `sudo update-rc.d rpcbind enable`
 
-Test if your device appears:
+3. Test if your device appears:
 `sudo mount -a`
 
-Your NAS will be available on your Linux device on `/mnt/fritz_nas/%NAS_PATH%`.
+4. Your NAS will be available on your Linux device on: 
+`cd /mnt/fritz_nas/%NAS_PATH%`
