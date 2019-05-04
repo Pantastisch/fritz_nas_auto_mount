@@ -1,2 +1,2 @@
 # <file system>                     <mount point>              <type>  <options>                                                                                                              <dump>  <pass>
-//%ROUTER_IP%/fritz.nas/%NAS_PATH%  /mnt/fritz_nas/%NAS_PATH%  cifs    vers=1.0,_netdev,username=%USERNAME%,password=%PASSWORD%,x-systemd.automount,x-systemd.requires=network-online.target  0       0
+//<ROUTER_IP>/fritz.nas/<NAS_PATH>  /mnt/fritz_nas/<NAS_PATH>  cifs    vers=1.0,_netdev,username=<USERNAME>,password=<PASSWORD>,x-systemd.automount,x-systemd.requires=network-online.target  0       0
