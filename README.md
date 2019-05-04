@@ -7,7 +7,7 @@ Credentials
 You get your credentials by adding a new user with FRITZ!NAS access on your router. Fill your credentials based on the table below:
 
 | Substitution | Description |
-| --- | --- |
+| :-: | :-- |
 | **`<ROUTER_IP>`** | Your FRITZ!Box IP (Most times 192.168.178.1) | 
 | **`<NAS_PATH>`** | Path on your NAS device, which you are allowed to access (With your user). |
 | **`<USERNAME>`** | Your FRITZ!NAS user which will have access to your `<NAS_PATH>`. |
@@ -70,8 +70,8 @@ Your command window shall now show you the folder structure including the new ge
 Tested FRITZ!Boxes
 ==================
 | FRITZ!Box | FRITZ!OS | Tested | Working |
-| --- | --- | :-: | :-: | 
-| FRITZ!Box 6490 Cable | 07.02 | [x] | [x] |
+| :-- | :-: | :-: | :-: | 
+| FRITZ!Box 6490 Cable | 07.02 | <ul><li>[x]  </li></ul> | <ul><li>[x]  </li></ul> |
 
-Feel free to test your own FRITZ!Box and add it to this table or create an issue for that. :metal:
+Feel free to test your own FRITZ!Box and add it to this table or create an issue for that.
 
