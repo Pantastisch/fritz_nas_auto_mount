@@ -71,7 +71,7 @@ Tested FRITZ!Boxes
 ==================
 | FRITZ!Box | FRITZ!OS | Tested | Working |
 | :-- | :-: | :-: | :-: | 
-| FRITZ!Box 6490 Cable | 07.02 | :heavy_check_mark: | :heavy_check_mark: |
+| FRITZ!Box 6490 Cable | < 07.02 | :heavy_check_mark: | :heavy_check_mark: |
 
 Feel free to test your own FRITZ!Box and add it to this table or create an issue for that.
 
